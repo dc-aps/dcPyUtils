@@ -12,25 +12,28 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'mypackage'
-DESCRIPTION = 'My short description for my project.'
-URL = 'https://github.com/me/myproject'
-EMAIL = 'me@example.com'
-AUTHOR = 'Awesome Soul'
+NAME = 'dcPyUtils'
+DESCRIPTION = 'python utils from DataCanvas APS'
+URL = 'https://github.com/dc-aps/dcPyUtils'
+EMAIL = 'lixf@sovon.net'
+AUTHOR = 'lixuefeng'
 REQUIRES_PYTHON = '>=3.6.0'
 VERSION = '0.1.0'
 
 # What packages are required for this module to be executed?
-REQUIRED = [
-    # 'requests', 'maya', 'records',
-]
+with open('./requirements.txt') as reqs_txt:
+    REQUIRED = [line for line in reqs_txt]
+
+# REQUIRED = [
+#     # 'requests', 'maya', 'records',
+# ]
 
 # What packages are optional?
 EXTRAS = {
     # 'fancy feature': ['django'],
 }
 
-# The rest you shouldn't have to touch too much :)
+
 # ------------------------------------------------
 # Except, perhaps the License and Trove Classifiers!
 # If you do change the License, remember to change the Trove Classifier for that!
