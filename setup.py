@@ -18,7 +18,7 @@ URL = 'https://github.com/dc-aps/dcPyUtils'
 EMAIL = 'lixf@sovon.net'
 AUTHOR = 'lixuefeng'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.1.2'
+VERSION = '0.1.4'
 
 # What packages are required for this module to be executed?
 with open('./requirements.txt') as reqs_txt:

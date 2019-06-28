@@ -1,4 +1,4 @@
-from dcpy.dcutils import mix_pd_s3
+from dcutils import mix_pd_s3
 
 access_key = 'N0GF745VYE91E5EDKCQC'
 secret_key = '6PN7fDMsdGSDhJJn8zm65uTzteubC6JAItsmjPbe'
