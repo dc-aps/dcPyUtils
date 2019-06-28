@@ -13,7 +13,6 @@ pip install dcPyUtils
 ```
 
 
-✨🍰✨ Thanks
-------
-
-* https://github.com/kennethreitz/setup.py
+Usages
+-----
+coming!

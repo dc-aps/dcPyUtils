@@ -1,4 +1,4 @@
-from datacanvas.dcutils import get_s3_fs as s3fs
+from dcaps.dcutils import get_s3_fs as s3fs
 
 access_key = 'N0GF745VYE91E5EDKCQC'
 secret_key = '6PN7fDMsdGSDhJJn8zm65uTzteubC6JAItsmjPbe'
